@@ -27,5 +27,13 @@
 4. Предоставить манифесты и скриншоты или вывод команды п.2.
 
 #### Решение 2
+1. Включаем `ingress-controller`.
+![enable ingress controller](img/5.png)
+
+2. Создаем манифест для `ingress` `web-ingress.yaml` и применяем его.
+![create ingress](img/6.png)
+
+3. Проверяем работоспособность созданного `ingress`.
+![check ingress](img/7.png)
 
 ------
