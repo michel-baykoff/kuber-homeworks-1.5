@@ -13,7 +13,6 @@ spec:
     metadata:
       labels:
         app: web-front
-#        components: webapp
     spec:
       containers:
       - name: nginx
